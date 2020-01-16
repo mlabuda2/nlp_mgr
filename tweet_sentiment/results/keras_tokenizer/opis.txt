@@ -1,0 +1,30 @@
+Train on 12800 samples, validate on 3200 samples
+Epoch 1/10
+12800/12800 [==============================] - 19s 2ms/step - loss: 0.7298 - acc: 0.4954 - val_loss: 0.6983 - val_acc: 0.5109
+Epoch 2/10
+12800/12800 [==============================] - 19s 1ms/step - loss: 0.6989 - acc: 0.4950 - val_loss: 0.6966 - val_acc: 0.4891
+Epoch 3/10
+12800/12800 [==============================] - 19s 1ms/step - loss: 0.6965 - acc: 0.4938 - val_loss: 0.6952 - val_acc: 0.5109
+Epoch 4/10
+12800/12800 [==============================] - 19s 1ms/step - loss: 0.6955 - acc: 0.4975 - val_loss: 0.6930 - val_acc: 0.5109
+Epoch 5/10
+12800/12800 [==============================] - 19s 1ms/step - loss: 0.6967 - acc: 0.4925 - val_loss: 0.6931 - val_acc: 0.5109
+Epoch 6/10
+12800/12800 [==============================] - 22s 2ms/step - loss: 0.6952 - acc: 0.4972 - val_loss: 0.6982 - val_acc: 0.4891
+Epoch 7/10
+12800/12800 [==============================] - 19s 1ms/step - loss: 0.6958 - acc: 0.4936 - val_loss: 0.6930 - val_acc: 0.5109
+Epoch 8/10
+12800/12800 [==============================] - 21s 2ms/step - loss: 0.6983 - acc: 0.4902 - val_loss: 0.6939 - val_acc: 0.4891
+Epoch 9/10
+12800/12800 [==============================] - 19s 1ms/step - loss: 0.6952 - acc: 0.4953 - val_loss: 0.6934 - val_acc: 0.4891
+Epoch 10/10
+12800/12800 [==============================] - 19s 1ms/step - loss: 0.6945 - acc: 0.4989 - val_loss: 0.6931 - val_acc: 0.5109
+4000/4000 [==============================] - 4s 910us/step
+Test Score: 0.6933083386421204
+Test Accuracy: 0.49524998664855957
+
+Wynik jest średni ponieważ:
+Ilość unik. nauczonych słów z train: 9327
+Nieznane słowa z test: 3825
+
+Wniosek: Potrzebny stemmer
