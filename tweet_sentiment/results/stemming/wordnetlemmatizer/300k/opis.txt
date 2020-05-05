@@ -1,0 +1,5 @@
+3 epoki; domyslny adam
+Test Score: 0.4028959140062332
+Test Accuracy: 0.8170333504676819
+
+4 epoki; adam(learning_rate=0.0005)
