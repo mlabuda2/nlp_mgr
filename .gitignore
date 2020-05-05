@@ -1,3 +1,6 @@
 kaggle/
 glove/
 *.csv
+python36/
+.vscode
+.idea
